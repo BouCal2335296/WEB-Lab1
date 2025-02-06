@@ -1,0 +1,57 @@
+.lora-font {
+    font-family: 'Lora', serif;
+  }
+
+.open-sans-font {
+    font-family: "Open Sans", serif;
+}
+
+.custom-row {
+  height: 50px; /* Définit une hauteur précise */
+}
+
+.glow-effect {
+  box-shadow: 0 0 15px #00ADB5; /* Ombre lumineuse cyan */
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #393E46!important;
+}
+
+  .searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  background-color: #222831;
+  border-radius: 30px;
+  width: 100%;
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 100%;
+  caret-color:transparent;
+  transition: width 0.4s linear;
+  }
+
+ 
+
+  .searchbar:hover > .search_icon{
+  color: #00ADB5;
+  }
+
+  .search_icon{
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  }
+  
